@@ -3,6 +3,7 @@ const core = require("@actions/core");
 
 async function execCommand(command, args) {
     let output = '';
+
     let error = '';
 
     const options = {};
